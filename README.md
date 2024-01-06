@@ -24,7 +24,7 @@ by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
 
 For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](https://flipsidecrypto.xyz/siavashj/cex-to-dex-and-dex-to-cex-cex-to-dex-and-dex-to-cex-arIDpY).
 
-- **Meta Data Infomation**
+#### Meta Data Infomation
 
 | Data Files  | Data Type | Data Content |
 | ------------- | ------------- | ------------- |
@@ -33,8 +33,8 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | [2_DEX_to_CEX.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_DEX_to_CEX.csv)  | Queried  | DEX to CEX Transaction Flow  |
 | [2_Netflow.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_Netflow.csv)  | Queried  | NetFlow  |
 
-- **Data Dictionary**
-### WETH Daily Price
+#### Data Dictionary
+- - **WETH Daily Price**
 
 | Variable Name          | Description           | Frequency | Unit | Type |
 |------------------------|-----------------------|-----------|------|------|
@@ -42,8 +42,8 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | Price                  | Daily price of WETH   | Daily     | USD | Numeric |
 
 
-### Transaction between CEX and DEX
-
+- - **Transaction between CEX and DEX**
+ 
 | Variable Name          | Description           | Frequency | Unit | Type |
 |------------------------|-----------------------|-----------|------|------|
 | DATE                   | Date of transfer      | Daily     | Date | Date |
@@ -54,8 +54,9 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | CEX                    | Centralized Exchange  | Daily     | Text | Categorical | 
 | DEX                    | Decentralized Exchange| Daily     | Text | Categorical |
 
-### Netflow between CEX and DEX
 
+- - **Netflow between CEX and DEX**
+  
 | Variable Name         | Description            | Frequency | Unit     | Type    | 
 | --------------------- | ---------------------- | --------- | -------- | ------- |
 | DATE                  | Transaction Date       | Daily     | Date     | Date    | 
