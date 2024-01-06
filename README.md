@@ -1,28 +1,28 @@
-# Decoding Social Sentiment in DAO: A Comparative Analysis of Blockchain Governance Communities
+# The Impact of Incidents on Crypto Markets: An Analysis of CeFi and DeFi Trust Mechanism 
 
 ## *Supplementary resources, data, and code*
-by **Yutong Quan**, **Xintong Wu**, **Wanlin Deng** and **Luyao Zhang***
+by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
 
 (* *the corresponding author: lz183@duke.edu*)
 
-<img src="https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Images/article-overview.png" width="600" alt="article-overview" /><br/>
+<img src="https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Images/whole_structure.png" width="600" alt="article-overview" /><br/>
 
 *Figure 1. Overview of the article: created by [Whimsical](https://whimsical.com/).*
 
 ## Table of Contents
-- [Data](https://github.com/SciEcon/BlockchainSentiment2023/tree/main#data)
-- [Code](https://github.com/SciEcon/BlockchainSentiment2023/tree/main#code)
+- [Data](https://github.com/SciEcon/IncidentsAnalysis2023/tree/main#data)
+- [Code](https://github.com/SciEcon/IncidentsAnalysis2023/tree/main#code)
 - [Images]()
-- [Reference](https://github.com/SciEcon/BlockchainSentiment2023/tree/main#references)
+- [Reference](https://github.com/SciEcon/IncidentsAnalysis2023/tree/main#references)
 
 ## Data
-<img src="https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Images/data-processed-flowchart.png" alt="data-processed-flowchart" /><br/>
+<img src="https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Images/Data_collection.png" alt="data-collected-flowchart" /><br/>
 
-*Figure 2. Data processed flowchart: created by [Whimsical](https://whimsical.com/).*
+*Figure 2. Data collected flowchart: created by [Whimsical](https://whimsical.com/).*
 
 ### Collected Data
 
-For collecting data from Discord, please refer to [**DiscordChatExporter**](https://github.com/Tyrrrz/DiscordChatExporter). DiscordChatExporter is an application that can be used to export message history from any Discord channel to a file.
+For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](https://flipsidecrypto.xyz/siavashj/cex-to-dex-and-dex-to-cex-cex-to-dex-and-dex-to-cex-arIDpY).
 
 - **Data File Information**
 
@@ -102,150 +102,39 @@ For collecting data from Discord, please refer to [**DiscordChatExporter**](http
 | | Discord Volume | Count | int64 | The daily discussion volume on DeFi protocols' Discord channel.|
 
 ## Code
-| **DeFi Protocols** | **Google Colab File Name**|
+| **Code Type** | **Google Colab File Name**|
 | ------- | ------- |
-| Aave | [Aave.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Aave.ipynb) |
-| Uniswap | [Uniswap.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Uniswap.ipynb) |
-| Curve Dao | [Curve_Dao.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Curve_Dao.ipynb) |
-| Aragon | [Aragon.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Aragon.ipynb.ipynb) |
-| yearn.finance | [yearn_finance.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/yearn_finance.ipynb) |
-| Merit Circle | [Merit_Circle.ipynb](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Merit_Circle.ipynb) |
-| Balancer | [Balancer](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Code/Balancer.ipynb) |
+| Collection | [Data_Collection.ipynb](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Code/Data_Collection.ipynb) |
+| Analysis | [Data_Analysis.ipynb](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Code/Data_Analysis.ipynb) |
 
 ## Images
-### Overview
 
-#### Data Processing Flowchart
-
-![data-processed-flowchart](./Images/data-processed-flowchart.png)
-
-#### Literature Review Roadmap
-![literature-review-mandmap](./Images/literature-review-mandmap.png)
-
-### AAVE
+### Price
 <table>
     <tr>
-        <td><img src="./Images/aave-sentiment.png" alt="aave-sentiment"></td>
-        <td><a href="./Images/aave-sentiment.png">./Images/aave-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/aave-volume-all.png" alt="aave-volume-all"></td>
-        <td><a href="./Images/aave-volume-all.png">./Images/aave-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/aave-volume.png" alt="aave-volume"></td>
-        <td><a href="./Images/aave-volume.png">./Images/aave-volume.png</a></td>
+        <td><img src="./Images/Price.png" alt="price"></td>
+        <td><a href="./Images/Price.png">./Images/Price.png</a></td>
     </tr>
 </table>
 
-### Aragon
-
+### Transaction Flow
 <table>
     <tr>
-        <td><img src="./Images/aragon-sentiment.png" alt="aragon-sentiment"></td>
-        <td><a href="./Images/aragon-sentiment.png">./Images/aragon-sentiment.png</a></td>
+        <td><DEX to CEX></td>
+        <td><img src="./Images/DtC.png" alt="dex-to-cex"></td>
+        <td><a href="./Images/DtC.png">./Images/DtC.png</a></td>
     </tr>
     <tr>
-        <td><img src="./Images/aragon-volume-all.png" alt="aragon-volume-all"></td>
-        <td><a href="./Images/aragon-volume-all.png">./Images/aragon-volume-all.png</a></td>
+        <td><DEX to CEX></td>
+        <td><img src="./Images/CtD.png" alt="cex-to-dex"></td>
+        <td><a href="./Images/CtD.png">./Images/CtD.png</a></td>
     </tr>
     <tr>
-        <td><img src="./Images/aragon-volume.png" alt="aragon-volume"></td>
-        <td><a href="./Images/aragon-volume.png">./Images/aragon-volume.png</a></td>
+        <td><NetFlow></td>
+        <td><img src="./Images/Net.png" alt="NetFlow"></td>
+        <td><a href="./Images/Net.png">./Images/Net.png</a></td>
     </tr>
 </table>
-
-
-### Balancer
-
-<table>
-    <tr>
-        <td><img src="./Images/balancer-sentiment.png" alt="balancer-sentiment"></td>
-        <td><a href="./Images/balancer-sentiment.png">./Images/balancer-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/balancer-volume-all.png" alt="balancer-volume-all"></td>
-        <td><a href="./Images/balancer-volume-all.png">./Images/balancer-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/balancer-volume.png" alt="balancer-volume"></td>
-        <td><a href="./Images/balancer-volume.png">./Images/balancer-volume.png</a></td>
-    </tr>
-</table>
-
-
-### Curve
-
-<table>
-    <tr>
-        <td><img src="./Images/curve-sentiment.png" alt="curve-sentiment"></td>
-        <td><a href="./Images/curve-sentiment.png">./Images/curve-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/curve-volume-all.png" alt="curve-volume-all"></td>
-        <td><a href="./Images/curve-volume-all.png">./Images/curve-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/curve-volume.png" alt="curve-volume"></td>
-        <td><a href="./Images/curve-volume.png">./Images/curve-volume.png</a></td>
-    </tr>
-</table>
-
-
-### Merit
-
-<table>
-    <tr>
-        <td><img src="./Images/merit-sentiment.png" alt="merit-sentiment"></td>
-        <td><a href="./Images/merit-sentiment.png">./Images/merit-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/merit-volume-all.png" alt="merit-volume-all"></td>
-        <td><a href="./Images/merit-volume-all.png">./Images/merit-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/merit-volume.png" alt="merit-volume"></td>
-        <td><a href="./Images/merit-volume.png">./Images/merit-volume.png</a></td>
-    </tr>
-</table>
-
-
-### Uniswap
-
-<table>
-    <tr>
-        <td><img src="./Images/uniswap-sentiment.png" alt="uniswap-sentiment"></td>
-        <td><a href="./Images/uniswap-sentiment.png">./Images/uniswap-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/uniswap-volume-all.png" alt="uniswap-volume-all"></td>
-        <td><a href="./Images/uniswap-volume-all.png">./Images/uniswap-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/uniswap-volume.png" alt="uniswap-volume"></td>
-        <td><a href="./Images/uniswap-volume.png">./Images/uniswap-volume.png</a></td>
-    </tr>
-</table>
-
-
-### Yearn
-
-<table>
-    <tr>
-        <td><img src="./Images/yearn-sentiment.png" alt="yearn-sentiment"></td>
-        <td><a href="./Images/yearn-sentiment.png">./Images/yearn-sentiment.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/yearn-volume-all.png" alt="yearn-volume-all"></td>
-        <td><a href="./Images/yearn-volume-all.png">./Images/yearn-volume-all.png</a></td>
-    </tr>
-    <tr>
-        <td><img src="./Images/yearn-volume.png" alt="yearn-volume"></td>
-        <td><a href="./Images/yearn-volume.png">./Images/yearn-volume.png</a></td>
-    </tr>
-</table>
-
-
 
 
 ## References
