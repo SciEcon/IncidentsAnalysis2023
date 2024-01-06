@@ -34,7 +34,7 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | [2_Netflow.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_Netflow.csv)  | Queried  | NetFlow  |
 
 #### Data Dictionary
-- - **WETH Daily Price**
+- **WETH Daily Price**
 
 | Variable Name          | Description           | Frequency | Unit | Type |
 |------------------------|-----------------------|-----------|------|------|
@@ -42,7 +42,7 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | Price                  | Daily price of WETH   | Daily     | USD | Numeric |
 
 
-- - **Transaction between CEX and DEX**
+- **Transaction between CEX and DEX**
  
 | Variable Name          | Description           | Frequency | Unit | Type |
 |------------------------|-----------------------|-----------|------|------|
@@ -55,7 +55,7 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | DEX                    | Decentralized Exchange| Daily     | Text | Categorical |
 
 
-- - **Netflow between CEX and DEX**
+- **Netflow between CEX and DEX**
   
 | Variable Name         | Description            | Frequency | Unit     | Type    | 
 | --------------------- | ---------------------- | --------- | -------- | ------- |
