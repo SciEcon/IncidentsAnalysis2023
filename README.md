@@ -120,17 +120,17 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 ### Transaction Flow
 <table>
     <tr>
-        <td><DEX to CEX></td>
+        <td>[DEX to CEX]</td>
         <td><img src="./Images/DtC.png" alt="dex-to-cex"></td>
         <td><a href="./Images/DtC.png">./Images/DtC.png</a></td>
     </tr>
     <tr>
-        <td><DEX to CEX></td>
+        <td>[DEX to CEX]</td>
         <td><img src="./Images/CtD.png" alt="cex-to-dex"></td>
         <td><a href="./Images/CtD.png">./Images/CtD.png</a></td>
     </tr>
     <tr>
-        <td><NetFlow></td>
+        <td>[NetFlow]</td>
         <td><img src="./Images/Net.png" alt="NetFlow"></td>
         <td><a href="./Images/Net.png">./Images/Net.png</a></td>
     </tr>
@@ -138,9 +138,9 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 
 
 ## References
-**Data Reference:** Discord (https://discord.com/)
+**Data Reference:** flipsidecrypto ( https://flipsidecrypto.xyz/)
 
-**Code Reference:** Tyrrrz/DiscordChatExporter (https://github.com/Tyrrrz/DiscordChatExporter)
+**Code Reference:** flipsidecrypto (https://flipsidecrypto.xyz/siavashj/q/1sPLGdSteDlQ)
 
 
 
