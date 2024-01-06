@@ -71,59 +71,45 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | Net Amount \$         | Net USD Amount          | Daily     | USD      | Numeric |
 
 
-
 ### Analyzed Data
-- **Data File Information**
 
-| **DeFi Protocols** | **Data File** | **Description** |
-| ------- | ------- | ------- |
-| **Aave** | [aave_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aave_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Aave. | 
-| | [aave_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aave_daily_sentiment.csv) | This file contains the daily sentiment score of discussion in the Aave community on Discord. | 
-| | [aave_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aave_user_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Aave community on Discord. | 
-| | [aave_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aave_volume_discord.csv) | This file presents the daily discussion volume for the Aave community on Discord. | 
-| **Uniswap** | [uniswap_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/uniswap_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Uniswap. | 
-| | [uniswap_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/uniswap_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Uniswap community on Discord. | 
-| | [uniswap_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/uniswap_user_sentiment.csv) | This file presents the daily discussion volume for the Uniswap community on Discord. | 
-| | [uniswap_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/uniswap_volume_discord.csv) | This file presents the daily discussion volume for the Uniswap community on Discord. | 
-| **Curve Dao** | [curve_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/curve_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Curve Dao. | 
-| | [curve_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/curve_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Curve Dao community on Discord. | 
-| | [curve_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/curve_user_sentiment.csv) | This file presents the daily discussion volume for the Curve Dao community on Discord. | 
-| | [curve_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/curve_volume_discord.csv) | This file presents the daily discussion volume for the Curve Dao community on Discord. | 
-| **Aragon** | [aragon_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aragon_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Aragon. | 
-| | [aragon_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aragon_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Aragon community on Discord. | 
-| | [aragon_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aragon_user_sentiment.csv) | This file presents the daily discussion volume for the Aragon community on Discord. | 
-| | [aragon_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/aragon_volume_discord.csv) | This file presents the daily discussion volume for the Aragon community on Discord. | 
-| **Yearn Finance** | [yearnfinance_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/yearnfinance_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Yearn Finance. | 
-| | [yearnfinance_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/yearnfinance_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Yearn Finance community on Discord. | 
-| | [yearnfinance_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/yearnfinance_user_sentiment.csv) | This file presents the daily discussion volume for the Yearn Finance community on Discord. | 
-| | [yearnfinance_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/yearnfinance_volume_discord.csv) | This file presents the daily discussion volume for the Yearn Finance community on Discord. | 
-| **Merit Circle** | [meritcircle_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/meritcircle_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Merit Circle. | 
-| | [meritcircle_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/meritcircle_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Merit Circle community on Discord. | 
-| | [meritcircle_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/meritcircle_user_sentiment.csv) | This file presents the daily discussion volume for the Merit Circle community on Discord. | 
-| | [meritcircle_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/meritcircle_volume_discord.csv) | This file presents the daily discussion volume for the Merit Circle community on Discord. | 
-| **Balancer** | [balancer_cleaned_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/balancer_cleaned_discord.csv) | This file provided the preprocessed content from the collected dataset of Balancer. | 
-| | [balancer_daily_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/balancer_daily_sentiment.csv) | This file includes the user-based sentiment score of discussion in the Balancer community on Discord. | 
-| | [balancer_user_sentiment.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/balancer_user_sentiment.csv) | This file presents the daily discussion volume for the Balancer community on Discord. | 
-| | [balancer_volume_discord.csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/analyzed/balancer_volume_discord.csv) | This file presents the daily discussion volume for the Balancer community on Discord. | 
+#### Meta Data Infomation
 
-- **Data Dictionary**
+| Data Files  | Data Type | Data Content |
+| ------------- | ------------- | ------------- |
+| [1_price_statistics_data.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/analyzed/1_price_statistics_data.csv)  | Analyzed  | statistics data of WETH daily price |
+| [2_cex_to_dex_statistics_data.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/analyzed/2_cex_to_dex_statistics_data.csv)  | Analyzed  | statistics data of CEX to DEX transaction flow  |
+| [2_dex_to_cex_statistics_data.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/analyzed/2_dex_to_cex_statistics_data.csv)  | Analyzed  | statistics data of DEX to CEX transaction flow  |
+| [2_netflow_statistics_data.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/analyzed/2_netflow_statistics_data.csv)  | Analyzed  | statistics data of NetFlow   |
 
-| **File Classification** | **Variable Name**	| **Unit**	| **Data Type**	| **Description** |
-| ------- | ------- | ------- | ------- | ------- |
-| *DeFi*_cleaned_discord.csv | AuthorID	| Count | int64 | This identifier uniquely distinguishes the authors of the discussions, allowing for tracking and attribution. |
-| | Author | Name |int64 | The name or username of the discussion participants. |
-| | Date_original | Minutes | int64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in minutes). |
-| | Date | Days | int64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in days). |
-| | Content | Text | int64 | The textual content of the discussions, including messages, comments, and replies. |
-| | Attachments | File/Link/Image | int64 | Information regarding any attached files, images, or media shared within the discussions. |
-| | Reactions | Emoji | int64 | A record of reactions, such as emojis, associated with each discussion, offering insights into community engagement and sentiment. |
-| | Preprocessed | Text | int64 | The preprocessed textual content of the discussions with lowercasing, URL removal, special character removal, tokenization, stopword removal, and punctuation removal. |
-| *DeFi*_daily_sentiment.csv | Date | Days | datetime64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in days). |
-| | Sentiment Score | Range=[-1,1] | int64 | The calculated average sentiment score for each day with discussion occurred. |
-| *DeFi*_user_sentiment.csv | AuthorID | Count | int64 | This identifier uniquely distinguishes the authors of the discussions, allowing for tracking and attribution. |
-| | Average_Sentiment_Score | Range=[-1,1] | int64 | The calculated average sentiment score for each author who participated in the discussion. |
-| *DeFi*_volume_discord.csv | Date | Days | datetime64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in days). |
-| | Discord Volume | Count | int64 | The daily discussion volume on DeFi protocols' Discord channel.|
+
+#### Data Dictionary
+- **WETH Daily Price**
+
+| Variable Name          | Description           | Frequency | Unit | Type |
+|------------------------|-----------------------|-----------|------|------|
+| DATE                   | Date of price      | Daily     | Date | Date |
+| Mean_PreviousMonth    	|Mean price of Previous Month|	Monthly|	USD|	Numeric|
+| Mean_NextMonth	        |Mean price of Next Month| Monthly|	USD|	Numeric|
+| Mean_Difference	       |Price difference between Next Month and Previous Month	|Monthly	|USD	|Numeric|
+
+- **Transaction between CEX and DEX**
+| Variable Name          | Description           | Frequency | Unit | Type |
+|------------------------|-----------------------|-----------|------|------|
+| DATE                   | Date of transfer      | Daily     | Date | Date |
+| Mean_PreviousMonth    	|Mean transaction of Previous Month|	Monthly|	USD|	Numeric|
+| Mean_NextMonth	        |Mean transaction of Next Month| Monthly|	USD|	Numeric|
+| Mean_Difference	       |Transaction difference between Next Month and Previous Month	|Monthly	|USD	|Numeric|
+
+
+- **Netflow between CEX and DEX**
+
+| Variable Name          | Description           | Frequency | Unit | Type |
+|------------------------|-----------------------|-----------|------|------|
+| DATE                   | Date of transfer      | Daily     | Date | Date |
+| Mean_PreviousMonth    	|Mean newflow transaction of Previous Month|	Monthly|	USD|	Numeric|
+| Mean_NextMonth	        |Mean newflow transaction of Next Month| Monthly|	USD|	Numeric|
+| Mean_Difference	       |Newflow transaction difference between Next Month and Previous Month	|Monthly	|USD	|Numeric|
 
 ## Code
 | **Code Type** | **Google Colab File Name**|
