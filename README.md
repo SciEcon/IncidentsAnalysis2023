@@ -24,29 +24,52 @@ by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
 
 For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](https://flipsidecrypto.xyz/siavashj/cex-to-dex-and-dex-to-cex-cex-to-dex-and-dex-to-cex-arIDpY).
 
-- **Data File Information**
+- **Meta Data Infomation**
 
-| **DeFi Protocols** | **Data File** | **Channel** | **Start Date** | **End Date** | **Message Count** |
-| -------------------| ------- | ------- | ------- | ------- | ------- |
-| Aave               | [Aave Community - ┌────AAVE Token────┐ - 📜governance [605528212239286312].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Aave%20Community%20-%20%E2%94%8C%E2%94%80%E2%94%80%E2%94%80%E2%94%80AAVE%20Token%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%90%20-%20%F0%9F%93%9Cgovernance%20%5B605528212239286312%5D.csv) | governance | 8/2/2019 | 7/27/2023 | 3,844 |
-| Uniswap            | [Uniswap - Governance - 🏛│governance [755969053280960533].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Uniswap%20-%20Governance%20-%20%F0%9F%8F%9B%E2%94%82governance%20%5B755969053280960533%5D.csv) | governance | 9/17/2020 | 8 13/2023 | 11,583 |
-| Curve DAO          | [Curve Finance - General - curve-governance [745257323487953036].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Curve%20Finance%20-%20General%20-%20curve-governance%20%5B745257323487953036%5D.csv) | curve-governance | 8/18/2020 | 8/15/2023 | 8,774 |
-| Aragon             | [Aragon 🦅 - DAO Builders - dao-builders-chat [1036975360551702568].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Aragon%20%F0%9F%A6%85%20-%20DAO%20Builders%20-%20dao-builders-chat%20%5B1036975360551702568%5D.csv) | dao-builders-chat | 11/20/2022 | 8/15/2023 | 702 |
-| yearn.finance      | [Yearn Talk - general - 🗳governance [734805853768777738].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Yearn%20Talk%20-%20general%20-%20%F0%9F%97%B3governance%20%5B734805853768777738%5D.csv) | governance | 7/20/2020 | 8/2/2023 | 7,214 |
-| Merit Circle       | [Merit Circle - 💬 Chats & Voice──────────── - ╭💬・general-chat [942785405617582110].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Merit%20Circle%20-%20%F0%9F%92%AC%20Chats%20%26%20Voice%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%20-%20%E2%95%AD%F0%9F%92%AC%E3%83%BBgeneral-chat%20%5B942785405617582110%5D.csv) | general-chat | 2/14/2022 | 8/15/2023 | 34,786 |
-| Balancer           | [Balancer - 🏡 _ Discussions - 💬︲general-chat [638460494168064025].csv](https://github.com/SciEcon/BlockchainSentiment2023/blob/main/Data/collected/Balancer%20-%20%F0%9F%8F%A1%20_%20Discussions%20-%20%F0%9F%92%AC%EF%B8%B2general-chat%20%5B638460494168064025%5D.csv) | general-chat | 11/29/2019 | 8/15/2023 | 51,707 |
+| Data Files  | Data Type | Data Content |
+| ------------- | ------------- | ------------- |
+| [1_Price.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/1_Price.csv)  | Queried  | WETH Daily Price  |
+| [2_CEX_to_DEX.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_CEX_to_DEX.csv)  | Queried  | CEX to DEX Transaction Flow  |
+| [2_DEX_to_CEX.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_DEX_to_CEX.csv)  | Queried  | DEX to CEX Transaction Flow  |
+| [2_Netflow.csv](https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Data/collected/2_Netflow.csv)  | Queried  | NetFlow  |
 
 - **Data Dictionary**
+### WETH Daily Price
 
-| **Variable Name**	| **Unit**	| **Data Type**	| **Description** |
-| ------- | ------- | ------- | ------- |
-| AuthorID	| Count | int64 | This identifier uniquely distinguishes the authors of the discussions, allowing for tracking and attribution. |
-| Author | Name |int64 | The name or username of the discussion participants. |
-| Date_original | Minutes | int64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in minutes). |
-| Date | Days | int64 | The timestamp indicates when each discussion occurred, providing a temporal dimension to the dataset (shown in days). |
-| Content | Text | int64 | The textual content of the discussions, including messages, comments, and replies. |
-| Attachments | File/Link/Image | int64 | Information regarding any attached files, images, or media shared within the discussions. |
-| Reactions | Emoji | int64 | A record of reactions, such as emojis, associated with each discussion, offering insights into community engagement and sentiment. |
+| Variable Name          | Description           | Frequency | Unit | Type |
+|------------------------|-----------------------|-----------|------|------|
+| DATE                   | Date of price      | Daily     | Date | Date |
+| Price                  | Daily price of WETH   | Daily     | USD | Numeric |
+
+
+### Transaction between CEX and DEX
+
+| Variable Name          | Description           | Frequency | Unit | Type |
+|------------------------|-----------------------|-----------|------|------|
+| DATE                   | Date of transfer      | Daily     | Date | Date |
+| N\_TRANSFER            | Number of transfers   | Daily     | Count| Integer |
+| USER                   | User identifier      | Daily     | Count | Integer |
+| AMOUNT\_USD            | Amount in USD         | Daily     | USD  | Numeric |
+| AMOUNT\_ETH            | Amount in ETH         | Daily     | ETH  | Numeric |
+| CEX                    | Centralized Exchange  | Daily     | Text | Categorical | 
+| DEX                    | Decentralized Exchange| Daily     | Text | Categorical |
+
+### Netflow between CEX and DEX
+
+| Variable Name         | Description            | Frequency | Unit     | Type    | 
+| --------------------- | ---------------------- | --------- | -------- | ------- |
+| DATE                  | Transaction Date       | Daily     | Date     | Date    | 
+| USER $\rightarrow$ DEX | User Interaction with DEX | Daily  | Count    | Integer |
+| USER $\rightarrow$ CEX | User Interaction with CEX | Daily  | Count    | Integer |
+| Net User              | Net User Interaction    | Daily     | Count    | Integer |
+| Amount $\rightarrow$ DEX | Amount Related to DEX | Daily | USD      | Numeric |
+| Amount $\rightarrow$ CEX | Amount Related to CEX | Daily | USD      | Numeric |
+| Net Amount ETH        | Net ETH Amount          | Daily     | ETH      | Numeric |
+| Amount \$ $\rightarrow$ DEX | Amount in USD Related to DEX | Daily | USD | Numeric |
+| Amount \$ $\rightarrow$ CEX | Amount in USD Related to CEX | Daily | USD | Numeric |
+| Net Amount \$         | Net USD Amount          | Daily     | USD      | Numeric |
+
+
 
 ### Analyzed Data
 - **Data File Information**
