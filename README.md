@@ -94,6 +94,7 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 | Mean_Difference	       |Price difference between Next Month and Previous Month	|Monthly	|USD	|Numeric|
 
 - **Transaction between CEX and DEX**
+
 | Variable Name          | Description           | Frequency | Unit | Type |
 |------------------------|-----------------------|-----------|------|------|
 | DATE                   | Date of transfer      | Daily     | Date | Date |
