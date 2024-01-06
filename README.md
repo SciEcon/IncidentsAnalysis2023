@@ -120,19 +120,33 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 ### Transaction Flow
 <table>
     <tr>
-        <td>[DEX to CEX]</td>
+        <td> DEX to CEX </td>
         <td><img src="./Images/DtC.png" alt="dex-to-cex"></td>
         <td><a href="./Images/DtC.png">./Images/DtC.png</a></td>
     </tr>
     <tr>
-        <td>[DEX to CEX]</td>
+        <td> DEX to CEX </td>
         <td><img src="./Images/CtD.png" alt="cex-to-dex"></td>
         <td><a href="./Images/CtD.png">./Images/CtD.png</a></td>
     </tr>
     <tr>
-        <td>[NetFlow]</td>
+        <td> NetFlow </td>
         <td><img src="./Images/Net.png" alt="NetFlow"></td>
         <td><a href="./Images/Net.png">./Images/Net.png</a></td>
+    </tr>
+</table>
+
+### Exchanges Trading Process
+<table>
+    <tr>
+        <td> Binance WETH trading process </td>
+        <td><img src="./Images/Binance.png" alt="binance"></td>
+        <td><a href="./Images/Binance.png">./Images/Binance.png</a></td>
+    </tr>
+    <tr>
+        <td> Uniswap WETH trading process </td>
+        <td><img src="./Images/Uniswap.png" alt="uniswap"></td>
+        <td><a href="./Images/Uniswap.png">./Images/Uniswap.png</a></td>
     </tr>
 </table>
 
@@ -140,7 +154,7 @@ For collecting data from the flipside, please refer to [**flipsidecrypto.xyz**](
 ## References
 **Data Reference:** flipsidecrypto ( https://flipsidecrypto.xyz/)
 
-**Code Reference:** flipsidecrypto (https://flipsidecrypto.xyz/siavashj/q/1sPLGdSteDlQ)
+**Code Reference:** flipsidecrypto/siavashj (https://flipsidecrypto.xyz/siavashj/q/1sPLGdSteDlQ)
 
 
 
