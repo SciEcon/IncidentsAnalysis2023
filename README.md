@@ -7,7 +7,7 @@ by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
 
 <img src="https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Images/whole_structure.png" width="600" alt="article-overview" /><br/>
 
-*Figure 1. Overview of the article: created by [Whimsical](https://whimsical.com/).*
+*Figure 1. Overview of the article: created by [Miro](https://miro.com/).*
 
 ## Table of Contents
 - [Data](https://github.com/SciEcon/IncidentsAnalysis2023/tree/main#data)
