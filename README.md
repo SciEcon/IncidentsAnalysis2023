@@ -18,7 +18,7 @@ by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
 ## Data
 <img src="https://github.com/SciEcon/IncidentsAnalysis2023/blob/main/Images/Data_collection.png" alt="data-collected-flowchart" /><br/>
 
-*Figure 2. Data collected flowchart: created by [Whimsical](https://whimsical.com/).*
+*Figure 2. Data collected flowchart: created by [Miro](https://miro.com/).*
 
 ### Collected Data
 
