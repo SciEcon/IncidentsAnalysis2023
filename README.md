@@ -1,4 +1,4 @@
-# The Impact of Incidents on Crypto Markets: An Analysis of CeFi and DeFi Trust Mechanism 
+# Trust Dynamics and Market Behavior in Cryptocurrency: A Comparative Study of Centralized and Decentralized Exchanges
 
 ## *Supplementary resources, data, and code*
 by **Xintong Wu**, **Wanlin Deng**, **Yutong Quan** and **Luyao Zhang***
